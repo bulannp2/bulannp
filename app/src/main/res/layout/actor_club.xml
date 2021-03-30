@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:paddingLeft="20dp"
+    android:paddingTop="15dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="15dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_photo"
+        android:layout_width="105dp"
+        android:layout_height="97dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        tools:ignore="InvalidId"
+        tools:src="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/img_photo"
+        android:layout_toRightOf="@+id/img_photo"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/actor_name"
+            android:textColor="@color/brown"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_detail"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:background="@color/white"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="@string/actor_detail"
+            android:textColor="@color/brown" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Korean Actors</string>
+    <string name="actor_name">Actor Name</string>
+    <string name="actor_detail">Actor Detail</string>
+</resources>
